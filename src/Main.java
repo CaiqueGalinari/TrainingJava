@@ -21,4 +21,6 @@ public class Main {
                 return (names[0] + ", " + names[1] + " and " + (names.length - 2) + " like this");
         }
     } //25/11/24 - "Like System" //// used: switch case
+
+
 }
