@@ -31,5 +31,3 @@ public class Main {
 
     //Exercícios de prog 2 da faculdade:
     // 1 - (Classe Calculadora)
-
-}
