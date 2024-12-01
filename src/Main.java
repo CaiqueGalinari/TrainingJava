@@ -6,9 +6,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World!");
         }
-    }
-
-    //Exercícios CodeWars
 
     // 1 - 25/11/24 - "Like System" //// used: switch case
     public static String whoLikesIt(String... names) {
@@ -26,8 +23,12 @@ public class Main {
                 return (names[0] + ", " + names[1] + " and " + (names.length - 2) + " like this");
         }
     }
+}
 
-    //Fim Exercícios CodeWars
+    //Exercícios CodeWars
+
+
+//Fim Exercícios CodeWars
 
     //Exercícios de prog 2 da faculdade:
     // 1 - (Classe Calculadora)
