@@ -1,11 +1,16 @@
 import org.w3c.dom.ls.LSOutput;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        System.out.println("Hello World!");
+        }
     }
 
+    //Exercícios CodeWars
+
+    // 1 - 25/11/24 - "Like System" //// used: switch case
     public static String whoLikesIt(String... names) {
         //I already made that in C, so I'll try to use switch case now, since I made with If-else
         switch(names.length) {
@@ -20,7 +25,11 @@ public class Main {
             default:
                 return (names[0] + ", " + names[1] + " and " + (names.length - 2) + " like this");
         }
-    } //25/11/24 - "Like System" //// used: switch case
+    }
 
+    //Fim Exercícios CodeWars
+
+    //Exercícios de prog 2 da faculdade:
+    // 1 - (Classe Calculadora)
 
 }
