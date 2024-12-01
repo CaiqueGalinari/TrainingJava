@@ -3,8 +3,7 @@ public class Calculadora {
     float n1, n2;
     float resultado;
 
-    public Calculadora() {
-    }
+    public Calculadora() {}
 
     //Menu interativo (copie e cole na main para testar):
     /*
