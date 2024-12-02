@@ -32,3 +32,4 @@ public class Main {
 
     //Exercícios de prog 2 da faculdade:
     // 1 - (Classe Calculadora)
+    // 2 - implementação de interface em classe (carro implements veiculo) (Não completei por não ver sentido em continuar)
