@@ -1,6 +1,22 @@
 package Exercise2Prog2;
 
 public interface Veiculo {
+
+    //Código para colar na main e testar:
+    /*
+
+        Moto moto = new Moto("Bis");
+        Carro carro = new Carro("Chevet");
+
+        carro.acelerar();
+        moto.acelerar();
+        carro.buzinar();
+        moto.buzinar();
+        carro.frear();
+        moto.frear();
+
+        */
+
     default void acelerar(){}
     default void frear(){}
     default void buzinar(){}

@@ -1,11 +1,12 @@
 package Exercise2Prog2;
 
-public class Carro implements Veiculo {
-    String modelo = "carro";
+public class Moto implements Veiculo{
+    //Declarando Variáveis
+    String modelo = "moto";
     boolean veiculoLigado = false, vidroAberto = false, alarmeLigado = false, acelerando = false;
     int m;
 
-    public Carro(String modelo) {
+    public Moto(String modelo) {
         this.modelo = modelo;
     }
 
@@ -29,7 +30,6 @@ public class Carro implements Veiculo {
     }
     @Override
     public void buzinar() {
-        System.out.println("\n"  + this.modelo + " fez bee bee!");
+        System.out.println("\n" + this.modelo + " fez bee bee!");
     }
-    //parei por aqui, não vi sentido em continuar.
 }
