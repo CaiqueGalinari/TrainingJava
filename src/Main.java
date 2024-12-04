@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Set;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello Dev!");
     }
 
     //Exercícios CodeWars
@@ -26,6 +26,7 @@ public class Main {
                 return (names[0] + ", " + names[1] + " and " + (names.length - 2) + " like this");
         }
     }
+
 
     //Fim Exercícios CodeWars
 }
@@ -52,7 +53,7 @@ implementam a interface Veiculo. No méttodo main, crie instâncias de Carro e M
 seus métodos.
 */
 
-    // 3 - Encapsulamento - ContaBancaria
+    // 3 - Encapsulamento - ContaBancaria 03/12/24
     /*
     Descrição:
 Crie a classe ContaBancaria com os atributos saldo (privado), titular e numeroConta.
@@ -61,4 +62,12 @@ instância de ContaBancaria, realize operações e exiba os resultados.
 
     Desafio Extra:
 Adicione uma validação para evitar saques superiores ao saldo disponível
+*/
+
+    // 4 - Reúso de Código 04/12/24
+    /*
+    Use a classe Calculadora criada no exercício de Modularização. Crie uma nova classe
+chamada CalculadoraAvancada que herda de Calculadora e adicione métodos para cálculos
+avançados, como raiz quadrada, exponencial, logaritmo e potência. Teste os novos métodos
+no méttodo main.
 */
