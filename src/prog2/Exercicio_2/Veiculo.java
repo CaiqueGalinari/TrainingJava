@@ -1,4 +1,4 @@
-package Exercise2Prog2;
+package prog2.Exercicio_2;
 
 public interface Veiculo {
 

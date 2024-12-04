@@ -1,3 +1,6 @@
+package prog2.Exercicio_4;
+import prog2.Exercicio_1.Calculadora;
+
 public class CalculadoraAvancada extends Calculadora {
     float baseLog;
 

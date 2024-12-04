@@ -1,3 +1,5 @@
+package prog2.Exercicio_3;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -69,7 +71,7 @@ public class ContaBancaria {
 //Cole o código abaixo na main para testar:
 /*
 
-        ContaBancaria[] Banco = new ContaBancaria[100];
+        prog2.Exercicio_1.Exercicio_2.Exercicio_3.ContaBancaria[] Banco = new prog2.Exercicio_1.Exercicio_2.Exercicio_3.ContaBancaria[100];
         Scanner scanner = new Scanner(System.in);
         int choice, placeHolder, senha;
         while(true){
@@ -79,7 +81,7 @@ public class ContaBancaria {
                 case 1:
                     for (int i = 0; i < 100;i++){
                         if(Banco[i] == null){
-                            Banco[i] = new ContaBancaria();
+                            Banco[i] = new prog2.Exercicio_1.Exercicio_2.Exercicio_3.ContaBancaria();
                             Banco[i].cadastrar();
                             break;
                         }

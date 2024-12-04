@@ -1,9 +1,3 @@
-import Exercise2Prog2.Carro;
-import Exercise2Prog2.Moto;
-import org.w3c.dom.ls.LSOutput;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Dev!");
@@ -32,10 +26,10 @@ public class Main {
 }
 
     //Exercícios de prog 2 da faculdade:
-    // 1 - Modularização - (Classe Calculadora) 30/11/24
+    // 1 - Modularização - (Classe prog2.Exercicio_1.Calculadora) 30/11/24
     /*
     Descrição:
-Implemente uma classe chamada Calculadora com métodos para soma, subtração,
+Implemente uma classe chamada prog2.Exercicio_1.Calculadora com métodos para soma, subtração,
 multiplicação e divisão. Crie uma classe Principal para chamar e testar os métodos da
 calculadora.
 
@@ -53,21 +47,47 @@ implementam a interface Veiculo. No méttodo main, crie instâncias de Carro e M
 seus métodos.
 */
 
-    // 3 - Encapsulamento - ContaBancaria 03/12/24
+    // 3 - Encapsulamento - prog2.Exercicio_1.Exercicio_2.Exercicio_3.ContaBancaria 03/12/24
     /*
     Descrição:
-Crie a classe ContaBancaria com os atributos saldo (privado), titular e numeroConta.
+Crie a classe prog2.Exercicio_1.Exercicio_2.Exercicio_3.ContaBancaria com os atributos saldo (privado), titular e numeroConta.
 Adicione métodos públicos para depositar, sacar e exibirSaldo. No méttodo main, crie uma
-instância de ContaBancaria, realize operações e exiba os resultados.
+instância de prog2.Exercicio_1.Exercicio_2.Exercicio_3.ContaBancaria, realize operações e exiba os resultados.
 
     Desafio Extra:
 Adicione uma validação para evitar saques superiores ao saldo disponível
 */
 
-    // 4 - Reúso de Código 04/12/24
+    // 4 - Reúso de Código - calculadora avançada 04/12/24
     /*
-    Use a classe Calculadora criada no exercício de Modularização. Crie uma nova classe
-chamada CalculadoraAvancada que herda de Calculadora e adicione métodos para cálculos
+    Descrição:
+    Use a classe prog2.Exercicio_1.Calculadora criada no exercício de Modularização. Crie uma nova classe
+chamada prog2.Exercicio_1.Exercicio_2.Exercicio_4.CalculadoraAvancada que herda de prog2.Exercicio_1.Calculadora e adicione métodos para cálculos
 avançados, como raiz quadrada, exponencial, logaritmo e potência. Teste os novos métodos
 no méttodo main.
+*/
+
+    // 5 - Classes - pessoa e estudante 04/12/24
+    /*
+    Descrição:
+Crie uma classe Pessoa com atributos nome e idade, ambos privados. Adicione um méttodo
+construtor para inicializar os atributos e métodos para obter e modificar os valores dos
+atributos. Crie um méttodo apresentar() que exibe uma mensagem com o nome e a idade da
+pessoa. No méttodo main, crie várias instâncias de Pessoa e exiba suas informações.
+
+    Desafio Extra:
+Crie uma subclasse Aluno que herda de Pessoa e adicione o atributo matricula.
+*/
+
+    //6 - Exercício Integrado -
+    /*
+    Descrição:
+Crie um programa que gerencie uma frota de veículos. Implemente uma interface Veiculo
+com métodos genéricos. Crie classes concretas Carro e Caminhao que implementam a
+interface. Crie uma classe Frota para armazenar e gerenciar veículos, com métodos para
+adicionar e listar veículos. No méttodo main, simule operações como adicionar veículos à
+frota e listar detalhes.
+    Desafio Extra:
+Use herança para criar subclasses de Carro e Caminhao, como CarroEsportivo e
+CaminhaoCarga.
 */

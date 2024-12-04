@@ -1,6 +1,8 @@
+package prog2.Exercicio_1;
+
 public class Calculadora {
 
-    double n1, n2;
+    public double n1, n2;
     protected double resultado;
 
     public Calculadora() {}
@@ -10,11 +12,11 @@ public class Calculadora {
     //Declarando variáveis
         int choice;
         Scanner scanner = new Scanner(System.in);
-        CalculadoraAvancada calculadora = new CalculadoraAvancada();
+        prog2.Exercicio_1.Exercicio_2.Exercicio_4.CalculadoraAvancada calculadora = new prog2.Exercicio_1.Exercicio_2.Exercicio_4.CalculadoraAvancada();
 
         //Menu interativo
         while (true) {
-            System.out.println("Qual operação você deseja fazer?\n1 - Usar a Calculadora\n2 - Sair");
+            System.out.println("Qual operação você deseja fazer?\n1 - Usar a prog2.Exercicio_1.Calculadora\n2 - Sair");
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
