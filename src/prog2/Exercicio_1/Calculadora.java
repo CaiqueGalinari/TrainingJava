@@ -12,7 +12,7 @@ public class Calculadora {
     //Declarando variáveis
         int choice;
         Scanner scanner = new Scanner(System.in);
-        prog2.Exercicio_1.Exercicio_2.Exercicio_4.CalculadoraAvancada calculadora = new prog2.Exercicio_1.Exercicio_2.Exercicio_4.CalculadoraAvancada();
+        CalculadoraAvancada calculadora = new CalculadoraAvancada();
 
         //Menu interativo
         while (true) {
@@ -22,8 +22,17 @@ public class Calculadora {
                 case 1:
                     System.out.println("\nDigite a operação que deseja realizar:\n1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n5 - Raiz Quadrada\n6 - Exponencial\n7 - Logaritmo");
                     choice = scanner.nextInt();
+                    //Checando se não é inválido
+                    if(choice > 7 || choice < 1){
+                        System.out.println("Comando inválido, tente novamente...");
+                        continue;
+                    }
+
+                    //Conseguindo o primeiro número
                     System.out.println("Digite o primeiro valor que deseja realizar a operação (em caso de divisão, ele será o dividendo): ");
                     calculadora.n1 = scanner.nextFloat();
+
+                    //Checando se precisa de mais de 1 número e conseguindo o segundo, caso precise
                     if(choice == 1 || choice == 2 || choice == 3 || choice == 4 || choice == 6) {
                         System.out.println("Digite o segundo valor que deseja realizar a operação: ");
                         calculadora.n2 = scanner.nextFloat();
@@ -50,10 +59,8 @@ public class Calculadora {
                         case 7:
                             calculadora.logaritmo();
                             break;
-                        default:
-                            System.out.println("Comando inválido, tente novamente...");
-                            continue;
                     }
+                    //Imprime o resultado
                     calculadora.getResult();
                     System.out.println("\nGostaria de continuar usando?\n1 - Sim\n2 - Não");
                     choice = scanner.nextInt();

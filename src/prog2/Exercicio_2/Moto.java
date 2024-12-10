@@ -1,6 +1,6 @@
 package prog2.Exercicio_2;
 
-public class Moto implements Veiculo{
+public class Moto implements IVeiculo {
     //Declarando Variáveis
     String modelo = "moto";
     boolean veiculoLigado = false, vidroAberto = false, alarmeLigado = false, acelerando = false;

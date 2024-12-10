@@ -1,6 +1,6 @@
 package prog2.Exercicio_2;
 
-public class Carro implements Veiculo {
+public class Carro implements IVeiculo {
     String modelo = "carro";
     boolean veiculoLigado = false, vidroAberto = false, alarmeLigado = false, acelerando = false;
     int m;

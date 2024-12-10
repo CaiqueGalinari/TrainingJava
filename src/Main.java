@@ -1,3 +1,8 @@
+import prog2.Exercicio_3.ContaBancaria;
+import prog2.Exercicio_4.CalculadoraAvancada;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Dev!");
@@ -79,7 +84,7 @@ pessoa. No méttodo main, crie várias instâncias de Pessoa e exiba suas inform
 Crie uma subclasse Aluno que herda de Pessoa e adicione o atributo matricula.
 */
 
-    //6 - Exercício Integrado -
+    //6 - Exercício Integrado - generics e subclasses 10/12/24 (NÃO ESTÁ COMPLETO AINDA)
     /*
     Descrição:
 Crie um programa que gerencie uma frota de veículos. Implemente uma interface Veiculo
